@@ -14,7 +14,9 @@ function setup() {
 
 
 
-  socket = io.connect('http://localhost:3000')
+  socket = io.connect('http://localhost:3000');
+
+  
   //handle broadcast calls
   socket.on('laserBeams', newDrawing);
   socket.on('stars', newStar);
