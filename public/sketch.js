@@ -14,8 +14,8 @@ function setup() {
 
 
 
-  socket = io.connect('http://localhost:3000');
-
+  //socket = io.connect('http://localhost:3000');
+  socket = io.connect('https://drawing-machine.herokuapp.com/');
   
   //handle broadcast calls
   socket.on('laserBeams', newDrawing);
