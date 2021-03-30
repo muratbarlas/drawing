@@ -1,0 +1,27 @@
+{
+  "name": "drawing",
+  "version": "1.0.0",
+  "description": "making a drawing app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratbarlas/drawing.git"
+  },
+  "keywords": [
+    "drawing",
+    "p5"
+  ],
+  "author": "Murat Barlas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muratbarlas/drawing/issues"
+  },
+  "homepage": "https://github.com/muratbarlas/drawing#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.0.0"
+  }
+}
